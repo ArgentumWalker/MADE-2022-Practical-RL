@@ -93,7 +93,7 @@ class PPO:
         old_prob = np.array(old_prob)
         target_value = np.array(target_value)
         advantage = np.array(advantage)
-        advnatage = (advantage - advantage.mean()) / (advantage.std() + 1e-8)
+        advantage = (advantage - advantage.mean()) / (advantage.std() + 1e-8)
         
         
         for _ in range(BATCHES_PER_UPDATE):
