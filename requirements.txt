@@ -1,0 +1,4 @@
+numpy 
+torch==1.13.1
+gym[box2d]==0.25.2
+pybullet==3.2.0
